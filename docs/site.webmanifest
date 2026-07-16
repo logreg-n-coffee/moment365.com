@@ -1,0 +1,21 @@
+{
+  "name": "Moment365",
+  "short_name": "Moment365",
+  "description": "Beautiful countdowns and reminders for the moments that matter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ec",
+  "theme_color": "#111528",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

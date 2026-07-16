@@ -1,13 +1,20 @@
-# Moment365 — Introduction
+# Moment365 website
 
-Moment365 is a countdown and reminders app designed to help you track and celebrate life’s moments.
+The localized marketing and support site for Moment365.
 
-## Features
+## Local development
 
-- Track events with countdowns and reminders.
-- Schedule events across time zones and sync with iCloud.
+```bash
+npm install
+npm run dev
+```
 
-## Getting Started
+## Validation and GitHub Pages export
 
-- **Install** Moment365 on your iOS device.
-- **Enable iCloud Sync** in Settings for updates across devices.
+```bash
+npm run pages:build
+```
+
+The project uses a static Next.js export. `pages:build` validates the source and
+syncs the finished site into `docs/`, which remains the GitHub Pages publishing
+directory for `moment365.com`.
