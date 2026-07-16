@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://moment365.com
+Sitemap: https://moment365.com/sitemap.xml
