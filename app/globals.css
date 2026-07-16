@@ -64,6 +64,7 @@ summary {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 ::selection {
@@ -1045,7 +1046,7 @@ img {
 }
 
 .gallery-card--tablet .gallery-card__image img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
